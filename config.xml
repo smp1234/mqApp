@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.mqcentral" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>mQCentral App</name>
-    <description>A mobile app for mQcentral</description>
+<widget id="io.ionic.mac_iot" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Mac_IoT</name>
+    <description>A mobile app by Macrosoft for IoT</description>
     <author email="macdevdeploy@gmail.com" href="http://macrosoftinc.com/">Macrosoft Inc Team</author>
     <content src="index.html" />
     <access origin="*" />
@@ -86,9 +86,9 @@
     <plugin name="cordova-plugin-ionic-keyboard" spec="2.0.5" />
     <plugin name="cordova-plugin-local-notification" spec="^0.9.0-beta.2" />
     <plugin name="cordova-plugin-touch-id" spec="~3.3.1" />
-    <engine name="ios" spec="4.5.4" />
-    <engine name="android" spec="^6.4.0" />
     <plugin name="cordova-plugin-geolocation" spec="^4.0.1">
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="We want your location! Best regards NSA" />
     </plugin>
+    <engine name="ios" spec="4.5.4" />
+    <engine name="android" spec="6.4.0" />
 </widget>
